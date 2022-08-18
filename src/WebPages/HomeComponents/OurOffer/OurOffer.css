@@ -1,0 +1,37 @@
+.ourClass{
+    color: red;
+}
+.OurOffer{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.bodyPart{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+.nameHead{
+    color: red;
+    text-align: left;
+}
+.nameBody{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.checkOutButton{
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+.checkOutButton:hover{
+  
+    border: 1px solid orange;
+    color: white;
+}
+.myContainer{
+    border: 2px solid red;
+}

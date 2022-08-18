@@ -1,0 +1,32 @@
+.plan{
+    color: orangered;
+    letter-spacing: 1px;
+}
+.perfectPlan{
+    color: white;
+    letter-spacing: 1px;
+    }
+.pricingHeading{
+    border: 1px solid red;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+.pricingHeading:hover, .pricingHeading:focus{
+    border: 1px solid red;
+    background-color: orangered;
+    color: black;
+}
+.enroll{
+    background: none;
+    border: 1px solid orange;
+    color: white;
+    padding: 15px 50px;
+    transition: all 0.5s ease-out;
+}
+.enroll:hover, .enroll:focus{
+    background: none;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+

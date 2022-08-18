@@ -1,0 +1,31 @@
+.banner-image{
+    background-image: url("../../../Images/bannerImg.jpg");
+    background-size: cover;
+    height: 60vh;
+}
+.detailsRegister{
+    color: lightgrey;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+.apponitButton{
+    background: none;
+    padding: 15px 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid orangered;
+    transition: all 0.5s ease-out
+}
+.apponitButton:hover, .apponitButton:focus{
+    border: 1px solid orangered;
+    color: black;
+    background-color: orangered;
+
+}
+.registerHeading{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

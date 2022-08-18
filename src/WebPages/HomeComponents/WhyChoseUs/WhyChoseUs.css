@@ -1,0 +1,25 @@
+.intro{
+    color: #ff0000;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.push{
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 0;
+    font-size: 40px;
+}
+.imgages{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.headline{
+    font-weight: bold;
+    color: white;
+}
+.paragraph-text{
+    color: gray;
+    text-align: center;
+}
