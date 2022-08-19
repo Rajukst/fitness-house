@@ -4,7 +4,7 @@ import equipment from "../../../Images/equip.png";
 import "./WhyChoseUs.css";
 const WhyChoseUs = () => {
   return (
-    <div>
+    <div className="mt-5">
       <p className="intro">WHY CHOSE US?</p>
       <p className="push">PUSH YOUR LIMITS FORWARD</p>
       <Container>

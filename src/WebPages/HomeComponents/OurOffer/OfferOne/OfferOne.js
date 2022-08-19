@@ -22,12 +22,12 @@ const OfferOne = () => {
                           />
                         </div>
                         <div className="bodyPart">
-                          <div className="namePart">
+                          <div className="namePart p-2">
                             <h6 className="nameHead">Name</h6>
                             <h4 className="nameBody">Your Name</h4>
                           </div>
                           <div className="buttonPart">
-                            <button className="checkOutButton">
+                            <button className="checkOutButton me-2">
                               <i className="fa-solid fa-greater-than"></i>
                             </button>
                           </div>
@@ -51,12 +51,12 @@ const OfferOne = () => {
                           />
                         </div>
                         <div className="bodyPart">
-                          <div className="namePart">
+                          <div className="namePart p-2">
                             <h6 className="nameHead">Name</h6>
                             <h4 className="nameBody">Your Name</h4>
                           </div>
                           <div className="buttonPart">
-                            <button className="checkOutButton">
+                            <button className="checkOutButton me-2">
                               <i className="fa-solid fa-greater-than"></i>
                             </button>
                           </div>
@@ -80,12 +80,12 @@ const OfferOne = () => {
                           />
                         </div>
                         <div className="bodyPart">
-                          <div className="namePart">
+                          <div className="namePart p-2">
                             <h6 className="nameHead">Name</h6>
                             <h4 className="nameBody">Your Name</h4>
                           </div>
                           <div className="buttonPart">
-                            <button className="checkOutButton">
+                            <button className="checkOutButton me-2">
                               <i className="fa-solid fa-greater-than"></i>
                             </button>
                           </div>

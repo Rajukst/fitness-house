@@ -14,11 +14,11 @@ const PricingPlan = () => {
               <h1>$ 39.0</h1>
               <h6>Free riding</h6>
               <div className="textPrice mt-4">
-                <h6>Unlimited equipments</h6>
-                <h6>Unlimited equipments</h6>
+              <h6>Unlimited equipments</h6>
                 <h6>Weight losing classes</h6>
                 <h6>Month to mouth</h6>
                 <h6>No time restriction</h6>
+                <h6>Personal Trainer</h6>
               </div>
               <div className="enrollButton">
                 <button className="mt-5 enroll">Enroll Now</button>
@@ -30,13 +30,12 @@ const PricingPlan = () => {
               <h2>Class drop-in</h2>
               <h1>$ 39.0</h1>
               <h6>Free riding</h6>
-
-              <div className="textPrice mt-4">
-                <h6>Unlimited equipments</h6>
-                <h6>Unlimited equipments</h6>
+             <div className="textPrice mt-4">
+              <h6>Unlimited equipments</h6>
                 <h6>Weight losing classes</h6>
                 <h6>Month to mouth</h6>
                 <h6>No time restriction</h6>
+                <h6>Personal Trainer</h6>
               </div>
               <div className="enrollButton">
                 <button className="mt-5 enroll">Enroll Now</button>
@@ -48,13 +47,12 @@ const PricingPlan = () => {
               <h2>Class drop-in</h2>
               <h1>$ 39.0</h1>
               <h6>Free riding</h6>
-
-              <div className="textPrice mt-4">
-                <h6>Unlimited equipments</h6>
-                <h6>Unlimited equipments</h6>
+            <div className="textPrice mt-4">
+           <h6>Unlimited equipments</h6>
                 <h6>Weight losing classes</h6>
                 <h6>Month to mouth</h6>
                 <h6>No time restriction</h6>
+                <h6>Personal Trainer</h6>
               </div>
               <div className="enrollButton">
                 <button className="mt-5 enroll">Enroll Now</button>

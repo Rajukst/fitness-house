@@ -1,0 +1,26 @@
+
+.myContact{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.iconses{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+}
+.iconses:hover, .iconses:focus{
+    background-color: cyan;
+}
+.contactText h6{
+color: white;
+text-align: left;
+}
+.iconics{
+    color: white;
+    transition: all 0.5s ease-out;
+}
+.iconics:hover, .iconics:focus{
+    color: black;
+}

@@ -20,7 +20,7 @@ const OfferTwo = () => {
                           />
                         </div>
                         <div className="bodyPart">
-                          <div className="namePart">
+                          <div className="namePart p-2">
                             <h6 className="nameHead">Name</h6>
                             <h4 className="nameBody">Your Name</h4>
                           </div>
@@ -49,7 +49,7 @@ const OfferTwo = () => {
                           />
                         </div>
                         <div className="bodyPart">
-                          <div className="namePart">
+                          <div className="namePart p-2">
                             <h6 className="nameHead">Name</h6>
                             <h4 className="nameBody">Your Name</h4>
                           </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import HeadCarosul from '../Carusel/HeadCarosul';
 import ContactInfo from '../ContactInfo/ContactInfo';
 import OfferTwo from '../OurOffer/OfferTwo/OfferTwo';
 import OurOffer from '../OurOffer/OurOffer';
@@ -10,6 +11,7 @@ import WhyChoseUs from '../WhyChoseUs/WhyChoseUs';
 const MainHome = () => {
     return (
         <div>
+            <HeadCarosul></HeadCarosul>
             <WhyChoseUs></WhyChoseUs>
             <OurOffer></OurOffer>
             <RegisterDetails></RegisterDetails>
