@@ -1,0 +1,24 @@
+.contact-form input{
+    width: 100%;
+    background: none;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    padding: 10px;
+    color: white;
+}
+.myTextArea{
+    width: 100%;
+    background: none;
+}
+.sendUsButton{
+    background: none;
+    color: white;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+    }
+.sendUsIcon{
+    padding-right: 5px;
+}
+.googleMaps{
+    width: 100%;
+}
