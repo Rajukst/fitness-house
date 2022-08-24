@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import AddClasses from './WebPages/Admin/AddClasses/AddClasses';
+import MainClasses from './WebPages/Classes/ClassesMain/MainClasses';
 import ContactUs from './WebPages/Contact/ContactUs';
 import MainHome from './WebPages/HomeComponents/MainHome/MainHome';
 
@@ -10,6 +12,8 @@ function App() {
      <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="contact" element={<ContactUs />} />
+        <Route path="classes" element={<MainClasses />} />
+        <Route path="add-class" element={<AddClasses />} />
       </Routes>
      </BrowserRouter>
     </div>

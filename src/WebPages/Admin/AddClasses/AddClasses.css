@@ -1,0 +1,26 @@
+.add-class input{
+    width: 90%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.158) ;
+    color: white;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    }
+    .add-class textarea{
+        width: 90%;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.158) ;
+        background: none;
+        border: none;
+        border-radius: 8px;
+        }
+    #submit-buttn1{
+        width: 20%;
+        background-color: black;
+        color: aliceblue;
+    }
+    .selectType{
+        color: white;
+        padding-right: 10px;
+    }
