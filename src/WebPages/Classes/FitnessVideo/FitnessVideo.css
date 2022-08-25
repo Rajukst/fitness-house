@@ -1,0 +1,5 @@
+.banner-images{
+    background-image: url("../../../Images/gallery.jpg");
+    background-size: cover;
+    height: 50vh;
+}

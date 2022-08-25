@@ -1,22 +1,26 @@
 import React, { useRef } from 'react';
 import Swal from 'sweetalert2';
-import "./AddClasses.css"
-const AddClasses = () => {
-    const addName = useRef();
-    const addPrice = useRef();
-    const addImage = useRef();
-    const addText = useRef();
-    const tagName = useRef();
+import "./AddTrainer.css"
+const AddTrainer = () => {
+    const addName= useRef()
+    const addDesigNation= useRef()
+    const addAge= useRef()
+    const addHeight= useRef()
+    const addWeight= useRef()
+    const addImage= useRef()
+    const addText= useRef()
     const handleOnSubmit = (e) => {
         e.preventDefault();
         const name = addName.current.value;
-        const price = addPrice.current.value;
+        const designation = addDesigNation.current.value;
         const image = addImage.current.value;
         const description = addText.current.value;
-        const tagNames= tagName.current.value;
-        const totalAdd = { name, price, image, description, tagNames  };
+        const height= addHeight.current.value;
+        const weight= addWeight.current.value;
+        const age= addAge.current.value;
+        const totalAdd = { name, designation, image, description, height, weight, age  };
         console.log(totalAdd);
-        fetch("http://localhost:5000/addGym", {
+        fetch("http://localhost:5000/addTrainer", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -38,16 +42,16 @@ const AddClasses = () => {
           });
       };
     return (
-        <div className="add-class">
+        <div className="add-trainer">
       <div>
-        <h1>Add Your Course Here</h1>
+        <h1>Add Trainer</h1>
         <form onSubmit={handleOnSubmit}>
           <input
             type="text"
             name=""
             id=""
             ref={addName}
-            placeholder="Course Name"
+            placeholder="Trainer Name"
             required
           />
           <br />
@@ -56,8 +60,36 @@ const AddClasses = () => {
             type="text"
             name=""
             id=""
-            ref={addPrice}
-            placeholder=" Advantage"
+            ref={addDesigNation}
+            placeholder="Trainer Designation"
+            required
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name=""
+            id=""
+            ref={addAge}
+            placeholder=" Age"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name=""
+            id=""
+            ref={addHeight}
+            placeholder=" Age"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name=""
+            id=""
+            ref={addWeight}
+            placeholder=" Age"
           />
           <br />
           <br />
@@ -66,7 +98,7 @@ const AddClasses = () => {
             name=""
             id=""
             ref={addImage}
-            placeholder="Course Image Url"
+            placeholder="Trainer Image"
           />
           <br />
           <br />
@@ -78,25 +110,13 @@ const AddClasses = () => {
             rows=""
             cols=""
           ></textarea>
-          <br />
-          <br />
-          <label htmlFor="tag"> <span className='selectType'>Select a Type:</span> </label>
-        <select ref={tagName} name="tag" id="tag">
-          <option value="Yoga">Yoga</option>
-          <option value="Runing">Runing</option>
-          <option value="Boxing">Boxing</option>
-          <option value="Weightloss">Weightloss</option>
-          <option value="Cario">Cario</option>
-          <option value="Body-buiding">Body buiding</option>
-          <option value="Nutrition">Nutrition</option>
-        </select>
         <br />
           <br />
-          <input id="submit-buttn1" type="submit" value="Add Course" />
+          <input id="submit-buttn1" type="submit" value="Add Trainer" />
         </form>
       </div>
     </div>
     );
 };
 
-export default AddClasses;
+export default AddTrainer;

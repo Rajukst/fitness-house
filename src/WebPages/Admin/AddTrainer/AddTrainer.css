@@ -1,4 +1,4 @@
-.add-class input{
+.add-trainer input{
     width: 90%;
     height: 40px;
     background-color: rgba(0, 0, 0, 0.158) ;
@@ -7,7 +7,7 @@
     border: none;
     border-radius: 8px;
     }
-    .add-class textarea{
+    .add-trainer textarea{
         width: 90%;
         height: 70px;
         background-color: rgba(0, 0, 0, 0.158) ;

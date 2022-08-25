@@ -1,0 +1,43 @@
+.containerss{
+    display: flex;
+    padding: 5px;
+    border: 1px solid white;
+}
+.texts h4, p{
+    text-align: left;
+    padding-left: 10px;
+    transition: all 0.5s ease-out;
+}
+.texts{
+    transition: all 0.5s ease-out;
+}
+.myLink{
+    text-decoration: none;
+}
+.linkButtons{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    width: 7rem;
+}
+.linkButtons a{
+    color: orangered;
+}
+.texts:hover, .texts:focus{
+    background-color: rgb(29, 29, 29);
+}
+.myImages{
+    transition: all 0.5s ease-out;
+}
+.myImages:hover, .myImages:focus{
+    transform: scaleX(-1);
+}
+.nameHeading{
+    color: white;
+    font-weight: bold;
+}
+.descripttionBox{
+    color: white;
+    text-align: justify;
+}
