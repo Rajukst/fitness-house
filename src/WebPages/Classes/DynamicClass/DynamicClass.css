@@ -23,6 +23,7 @@
 }
 .linkButtons a{
     color: orangered;
+    text-decoration: none;
 }
 .texts:hover, .texts:focus{
     background-color: rgb(29, 29, 29);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./DynamicClass.css";
@@ -7,6 +7,14 @@ import "aos/dist/aos.css";
 const DynamicClass = ({ gymClass }) => {
   const { image, description, _id, name } = gymClass;
   AOS.init();
+const [trainerList, setTrainerList]= useState([])
+useEffect(()=>{
+  const url= "http://localhost:5000/trainers"
+  fetch(url)
+  .then(res=>res.json())
+  .then(data=>setTrainerList(data))
+},[])
+
   return (
     <div>
       <Col>
@@ -23,10 +31,7 @@ const DynamicClass = ({ gymClass }) => {
               <h4 className="nameHeading">{name}</h4>
               <p className="descripttionBox">{description.slice(0, 100)} </p>
               <div className="linkButtons">
-                <Link className="myLink" to="#">
-                  {" "}
-                  Explore
-                </Link>
+                <Link to={`/services/${_id}`}>Explore More</Link>
               </div>
             </div>
           </div>

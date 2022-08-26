@@ -9,7 +9,7 @@ const AddTrainer = () => {
     const addWeight= useRef()
     const addImage= useRef()
     const addText= useRef()
-    const handleOnSubmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         const name = addName.current.value;
         const designation = addDesigNation.current.value;
@@ -20,7 +20,7 @@ const AddTrainer = () => {
         const age= addAge.current.value;
         const totalAdd = { name, designation, image, description, height, weight, age  };
         console.log(totalAdd);
-        fetch("http://localhost:5000/addTrainer", {
+        fetch("http://localhost:5000/add-trainer", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -45,7 +45,7 @@ const AddTrainer = () => {
         <div className="add-trainer">
       <div>
         <h1>Add Trainer</h1>
-        <form onSubmit={handleOnSubmit}>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             name=""
@@ -80,7 +80,7 @@ const AddTrainer = () => {
             name=""
             id=""
             ref={addHeight}
-            placeholder=" Age"
+            placeholder=" Height"
           />
           <br />
           <br />
@@ -89,7 +89,7 @@ const AddTrainer = () => {
             name=""
             id=""
             ref={addWeight}
-            placeholder=" Age"
+            placeholder=" Weight"
           />
           <br />
           <br />

@@ -1,0 +1,11 @@
+.myLinks a{
+text-decoration: none;
+color: white;
+padding-left: 20px;
+align-items: center;
+font-size: 20px;
+transition: all 0.5s ease-out;
+}
+.myLinks a:hover, .myLinks a:focus{
+color: orangered;
+}
