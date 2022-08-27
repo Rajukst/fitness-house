@@ -1,7 +1,6 @@
 .containerss{
     display: flex;
     padding: 5px;
-    border: 1px solid white;
 }
 .texts h4, p{
     text-align: left;
